@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "basic-api"
+version = "0.1.0"
+description = "Api basica de Fast Api"
+authors = ["heldeveloper <heliezer.developer@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "basic_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.92.0"
+uvicorn = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
